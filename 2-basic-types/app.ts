@@ -81,3 +81,11 @@ for (const skill of person4.skill) {
 
 const tuple: [number, string] = [2, "user"];
 console.log(tuple);
+
+// enum
+enum Role {
+  SupperAdmin = 200,
+  Admin,
+  User = "Asd",
+}
+console.log("Role", Role.Admin);
