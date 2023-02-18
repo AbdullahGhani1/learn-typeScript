@@ -78,3 +78,6 @@ console.log(numArray);
 for (const skill of person4.skill) {
   console.log(skill.toLowerCase());
 }
+
+const tuple: [number, string] = [2, "user"];
+console.log(tuple);
