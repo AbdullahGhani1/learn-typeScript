@@ -22,4 +22,28 @@ const resultPhrase = "Result is: ";
 // Call the add function with number1 and number2, and assign the result to a variable
 add(number1, number2, printResult, resultPhrase);
 
-// Output the result to the console
+// object
+const person = {
+  // prefered code
+  name: "Abdullah",
+  age: 28,
+  post: "Software Developer",
+};
+// error
+// console.log(person.gender);
+//
+const person2: object = {
+  name: "Abdullah",
+  age: 28,
+};
+// error
+// console.log(person2.name); // propety 'name' does not exit on type object
+
+const person3: {
+  name: string;
+  age: number;
+} = {
+  name: "Abdullah",
+  age: 28,
+};
+console.log(person3.name);
