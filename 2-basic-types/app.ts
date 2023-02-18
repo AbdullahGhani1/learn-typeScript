@@ -47,3 +47,34 @@ const person3: {
   age: 28,
 };
 console.log(person3.name);
+
+// Array Types
+const person4 = {
+  name: "abdullah Ghani",
+  age: 28,
+  skill: [
+    "Kubernetes",
+    "Docker",
+    "Teraform",
+    "Linux",
+    "Shell Scripting",
+    "Shopify App Dewvelopment",
+    "React Js",
+    "Node JS",
+    "TypeScript",
+    "JavaScript",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "TailwindCss",
+  ],
+};
+const numArray = [1, 2, 3, 4]; // const arr:number =[1,2,3,4]
+numArray.push(6);
+
+console.log(numArray);
+// numArray.push("5"); // Gives Error because this Array only accept number
+
+for (const skill of person4.skill) {
+  console.log(skill.toLowerCase());
+}
